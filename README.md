@@ -15,3 +15,7 @@ A desktop scheduling application built using C# and MySQL, designed to manage cu
 - **C#**: Main programming language for application logic and UI.
 - **MySQL**: Database for storing customer and appointment data.
 - **Windows Forms**: For building the desktop user interface.
+
+## Screenshot
+
+![Global Scheduler Interface](Scheduler/Scheduler/Assets/globalscheduler.png)
