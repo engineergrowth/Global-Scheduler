@@ -1,48 +1,22 @@
-# Coding Vidz
+# Global Scheduler
 
-A full-stack video-sharing application built using React, TypeScript, Node.js, and Prisma. Coding Vidz empowers users to share, discover, and organize coding-related videos efficiently. Designed with a robust backend and a user-friendly frontend, the app enables seamless video sharing, bookmarking, and personalized content organization.
+A desktop scheduling application built using C# and MySQL, designed to manage customer appointments efficiently. This application features multilingual login, timezone-aware scheduling, calendar views, user alerts, and full CRUD functionality for customer and appointment management. It demonstrates expertise in scalable, user-centric application design and robust database integration.
 
 ## Features
 
-- **User Authentication**:  
-  - Secure registration and login using **JSON Web Tokens** (JWT) and **bcrypt** for password hashing.
-
-- **Video Tagging System**:  
-  - Add one or multiple tags to videos.
-  - Discover videos by filtering based on one or more tags.
-
-- **Video Collection**:  
-  - Bookmark videos you like or plan to watch later, and organize your collection efficiently.
-
-- **CRUD Operations on Videos**:  
-  - Edit and delete your video posts.
-
+- **Multilingual Login**: Supports multiple languages for login, with real-time error message translation.
+- **Timezone-Aware Scheduling**: Automatically adjusts appointment times based on the user's timezone.
+- **Calendar Views**: View and manage appointments in an intuitive calendar interface.
+- **User Alerts**: Sends reminders for upcoming appointments, ensuring users are notified in advance.
+- **Full CRUD Operations**: Create, Read, Update, and Delete customers and appointments with validation.
+  
 ## Technologies Used
 
-- **React**: Frontend framework for building interactive user interfaces.
-- **TypeScript**: Type-safe language for improved developer experience and error prevention.
-- **Node.js**: Backend runtime environment for building scalable server-side applications.
-- **Express**: Web framework for Node.js, handling routing and server logic.
-- **Prisma**: ORM for database interaction, making queries more efficient and type-safe.
-- **JWT (JSON Web Tokens)**: For secure authentication and user sessions.
-- **bcrypt**: For hashing and comparing user passwords securely.
+- **C#**: Main programming language for application logic and UI.
+- **MySQL**: Database for storing customer and appointment data.
+- **Windows Forms**: For building the desktop user interface.
 
-## Database Schema
+## Screenshot
 
-The application uses a **Prisma**-designed schema to manage the database. Key models include:
-
-- **User**: Stores user data such as email, hashed password, and authentication details.
-- **Video**: Stores video details, including the title, URL, description, and associated tags.
-- **Tag**: A tag model to categorize videos.
-- **Bookmark**: Allows users to save and organize their favorite videos.
-
-## Screenshots
-
-**Video Page**  
-![Video Page Screenshot](/screenshot.png)
-
-## Contributing
-
-Feel free to fork this repository, submit issues, and send pull requests. Contributions are always welcome!
-
+![Global Scheduler Interface](Scheduler/Scheduler/Assets/globalscheduler.png)
 
